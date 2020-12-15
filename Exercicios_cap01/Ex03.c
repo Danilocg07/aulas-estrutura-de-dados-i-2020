@@ -7,5 +7,5 @@ void main()
 {
     float resultado;
     resultado = (5 + 8 + 12) / 3;
-    printf("Resultado: %2.f\n\n", resultado);
+    printf("Resultado: %.1f\n\n", resultado);
 }

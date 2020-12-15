@@ -36,6 +36,6 @@ void main()
 
                 combustivel = distanciaPercorrida / 12;
 
-        printf("Quantidade de litros consumidos: %2.f\n", combustivel);
+        printf("Quantidade de litros consumidos: %.2f\n", combustivel);
         printf("Distacia percorrida: %f\n\n", distanciaPercorrida);
 }
