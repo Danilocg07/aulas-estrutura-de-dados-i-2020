@@ -32,9 +32,9 @@ void main()
         printf("Digite a velocidade media: ");
         scanf("%f",&velocidadeMedia);
 
-        distanciaPercorrida = tempoDecorrido * velocidadeMedia;
+                distanciaPercorrida = tempoDecorrido * velocidadeMedia;
 
-        combustivel = distanciaPercorrida / 12;
+                combustivel = distanciaPercorrida / 12;
 
         printf("Quantidade de litros consumidos: %2.f\n", combustivel);
         printf("Distacia percorrida: %f\n\n", distanciaPercorrida);
