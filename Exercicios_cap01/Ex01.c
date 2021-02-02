@@ -11,7 +11,7 @@ void main(){
         printf("Digite seu nome: \n"); // escrever algo na tela \n - > pular uma linha
         scanf("%s", &nome); // fazer a leitura do que é digitado %s -> o valor digitado vai ficar dentro desse espaço 
         printf("---------------------------");
-        printf("\n%s \n", nome);
+        printf("\nNome:%s \n", nome);
         printf("---------------------------\n\n");
 }
 
